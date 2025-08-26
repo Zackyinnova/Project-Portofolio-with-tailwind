@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="bg-[#0D1B2A] text-white text-[20px] font-[Poppins] m-0 h-screen flex items-center justify-center gap-[24px]">
+      <!-- Left Side -->
+    <div class="bg-[#1A2D41] h-[732px] w-[288px] rounded-[10px] flex flex-col items-center justify-center gap-[13px]">
+        <!--Header profil-->
+        <div class="w-[248px] h-[330px] border-b border-white flex flex-col items-center gap-[9px]" >
+            <div class="w-[248px] h-[226px] bg-[#294058] rounded-[10px]"></div>
+            <span class="text-[25px] font-semibold ">Zacky Innova</span>
+            <span class="bg-[#294058] w-[184px] h-[34px] flex justify-center items-center rounded-[7px] text-[15px]">Web Developer</span>
+        </div>
+
+        <!--Sosial Media-->
+        <div class="w-[248px] h-[337px] flex flex-col justify-start items-center text-[14px] gap-[1px]">
+            <!--Email-->
+            <div class="flex w-[248px] h-[64px] items-center gap-[15px]">
+                <div class="bg-[#294058] rounded-full w-[35px] h-[35px] flex justify-center items-center">
+                    <iconify-icon icon="ic:round-email" class="text-[#adaeae] text-[24px]"></iconify-icon>
+                </div>
+                <div class="flex flex-col">
+                    <span>Email</span>
+                    <span>Zackyinova1@gmail.com</span>
+                </div>
+            </div>
+
+            <!--Instagram-->
+            <div class="flex w-[248px] h-[64px] items-center gap-[15px]">
+                <div class="bg-[#294058] rounded-full w-[35px] h-[35px] flex justify-center items-center">
+                    <iconify-icon icon="mingcute:instagram-fill" class="text-[#adaeae] text-[24px]"></iconify-icon>
+                </div>
+                <div class="flex flex-col">
+                    <span>Instagram</span>
+                    <span>Zckyinn</span>
+                </div>
+            </div>
+
+            <!--LinkedIn-->
+            <div class="flex w-[248px] h-[64px] items-center gap-[15px]">
+                <div class="bg-[#294058] rounded-full w-[35px] h-[35px] flex justify-center items-center">
+                    <iconify-icon icon="streamline:linkedin-solid" class="text-[#adaeae] text-[20px]"></iconify-icon>
+                </div>
+                <div class="flex flex-col">
+                    <span>LinkedIn</span>
+                    <span>Zacky Innova</span>
+                </div>
+            </div>
+
+            <!--Github-->
+            <div class="flex w-[248px] h-[64px] items-center gap-[15px]">
+                <div class="bg-[#294058] rounded-full w-[35px] h-[35px] flex justify-center items-center">
+                    <iconify-icon icon="mingcute:github-fill" class="text-[#adaeae] text-2xl"></iconify-icon>
+                </div>
+                <div class="flex flex-col">
+                    <span>Github</span>
+                    <span>Zackyinova1</span>
+                </div>
+            </div>
+
+            <!--Behance-->
+            <div class="flex w-[248px] h-[64px] items-center gap-[15px]">
+                <div class="bg-[#294058] rounded-full w-[35px] h-[35px] flex justify-center items-center">
+                    <iconify-icon icon="mingcute:behance-line" class="text-[#adaeae] text-2xl"></iconify-icon>
+                </div>
+                <div class="flex flex-col">
+                    <span>Behance</span>
+                    <span>Zacky Innova</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="bg-[#1A2D41] h-[732px] w-[904px] rounded-[10px] flex flex-col pb-10">
+
+        <!--Header right side-->
+        <div class="w-full h-[84px] px-5 flex justify-between items-center shrink-0"> 
+            <p class="border-b-2 text-[30px] font-semibold">Contact Me</p>
+
+            <!--Navbar-->
+            <div class="flex bg-[#294058] w-full md:w-auto px-5 py-6 h-[40px] rounded-[10px] text-[16px] justify-center items-center gap-[20px]">
+                <a href="index.html" class="hover:border-b h-[20px] pb-6">About Me</a>
+                <a href="Resume.html" class="hover:border-b h-[20px] pb-6">Resume</a>
+                <a href="Portofolio.html" class="hover:border-b h-[20px] pb-6">Portfolio</a>
+                <a href="Contact.html" class="hover:border-b h-[20px] pb-6">Contact Me</a>
+            </div>
+        </div>
+        
+        <!--content contact me-->
+        <div class=" w-full h-auto py-2 px-5 flex gap-[10px] flex-col justify-center  ">
+            <!--Header contact me-->
+
+            <div class="font-bold text-[25px]">Form Message</div>
+
+            <!--Form -->
+            <div class="w-full h-auto"> 
+                <form class="flex flex-col gap-4">
+
+                    <!--Form Username dan email-->
+                    <div class="flex justify-between">
+                        <input type="text" placeholder="Full name" class="all-unset border-2 w-[394px] h-[38px] pl-[9px] rounded-[10px] text-[15px]">
+                        <input type="email" placeholder="Email Addreas" class="all-unset border-2 w-[394px] h-[38px] pl-[9px] rounded-[10px] text-[15px]">
+                    </div>
+
+                    <textarea type="text" placeholder="Your Massage" class="massage-form"></textarea>
+
+
+                    <button type="submit" class="border-2 w-auto py-2 rounded-[10px]"> Send massage</button>
+                </form>
+            </div>
+
+        </div>
+
+    
+    </div>
+</body>
+</html>
